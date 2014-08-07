@@ -1,6 +1,7 @@
 package com.richluick.crystalball;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
@@ -13,7 +14,6 @@ import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.richluick.crystalball.R;
 import com.richluick.crystalball.ShakeDetector.OnShakeListener;
 
 

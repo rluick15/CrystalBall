@@ -4,5 +4,16 @@
     <string name="app_name">Crystal Ball</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string-array name="ball_answers">
+        <item>It is certain</item>
+        <item>It is decidedly so</item>
+        <item>All signs say YES</item>
+        <item>The stars are not aligned</item>
+        <item>My reply is no</item>
+        <item>It is doubtful</item>
+        <item>Better not tell you now</item>
+        <item>Concentrate and ask again</item>
+        <item>Unable to answer now</item>
+    </string-array>
 
 </resources>

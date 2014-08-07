@@ -2,19 +2,20 @@ package com.richluick.crystalball;
 
 import java.util.Random;
 
-public class CrystalBall {
-	public String[] mAnswers = {
-			"It is certain",
-			"It is decidedly so",
-			"All signs say YES",
-			"The stars are not aligned",
-			"My reply is no",
-			"It is doubtful",
-			"Better not tell you now",
-			"Concentrate and ask again",
-			"Unable to answer now"};
+import android.app.Activity;
+import android.content.res.Resources;
+
+
+public class CrystalBall extends Activity {
 	
-	public String getAnAnswer() {
+	protected String[] mAnswers;
+	
+	public void onCreate() { 
+		Resources resources = getResources();
+		mAnswers = resources.getStringArray(R.array.ball_answers);
+	}
+	
+     public String getAnAnswer() {
 		String answer = "";
 		
 		Random randomGenerator = new Random();
